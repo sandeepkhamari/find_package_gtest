@@ -11,7 +11,7 @@ double cgpa_calc::calculateCGPA(void)
    return cgpa;
 }
 
-void cgpa_calc::setMarks(int m, int p, int c, int e)
+void cgpa_calc::setMarks(double m, double p, double c, double e)
 {
    maths= m;
    physics= p;

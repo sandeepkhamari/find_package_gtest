@@ -15,3 +15,11 @@ TEST(CgpaTest, incorrectCgpa)
   cc.setMarks(80, 40, 40, 80);
   EXPECT_NE(cc.calculateCGPA(), 10);
 }
+
+// Don't enable this, as we have already 
+// linked ::GTest::gtest_main in cmake file.
+//int main(int argc, char **argv)
+//{
+//  ::testing::InitGoogleTest(&argc, argv);
+//  return RUN_ALL_TESTS();
+//}
